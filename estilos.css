@@ -30,7 +30,7 @@ input[type="submit"]{
     padding: 10px;
     color: #fff;
     background: #0098cb;
-    width: 340px;
+    width: 360px;
     margin: 60px auto;
     margin-top: 0;
     border: 0;
@@ -38,9 +38,9 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-/*se agrega un estilo tipo hover para que cuando elcursor pase por el boton esta cambie de color */
-input[type="submit"]:hover{
+
+/*se agrega un estilo tipo hover para que cuando elcursor pase por el boton este cambie de color */
+input[type="reset"]:hover{
     background-color: green;
 }
-
 

@@ -11,16 +11,20 @@
     <header>
         <h2>Inicio de Sesion</h2>
     </header>
+
         <!--Formulario para ingresar a la aplicación-->
-        <form action="login.html" method="post">
-            <input type="text" placeholder="Usuario">
-            <input type="password" placeholder="Contraseña">
-            <input type="submit" value="Ingresar">
+
+        <form action="app.php" method="POST">
+            <input type="text" name="Nusuario" id="" placeholder="Usuario">
+            <input type="password" name="pass" id="" placeholder="Contraseña">
+            <input type="submit" value="Ingresar"><br>
+            <input type="reset" name="" id="reset" value="Borrar formulario">
             <br>
             <br>
 
             <!--Enlace para regístro de usuario nuevo-->
-            <a href="registro.html">Regístrate</a>
+            <a href="registro.php">Registrése</a>
+
         </form>
     
 </body>
