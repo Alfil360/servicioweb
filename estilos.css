@@ -40,10 +40,11 @@ input[type="submit"]{
 
 
 /*se agrega un estilo tipo hover para que cuando elcursor pase por el boton este cambie de color */
+input[type="sibmit"]:hover{
+    background-color: green;
+}
+
 input[type="reset"]:hover{
     background-color: red;
 }
 
-input[type="sibmit"]:hover{
-    background-color: green;
-}
