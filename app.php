@@ -7,7 +7,7 @@ $clave = $_POST['pass'];
 
 //consulta a la base de datos un usuario registrado
 
-$consulta ="select * from usuarios where usuario ='$usu' and contraseña='$clave'";
+$consulta ="select * from usuarios where usuario ='$usu' and contrasena ='$clave'";
 
 
 $resultado =$conexion->query($consulta);

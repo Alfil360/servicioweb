@@ -7,10 +7,10 @@ include "conexion.php";
 $nombres = $_POST['nombre'];
 $apellidos = $_POST['apellido'];
 $usuario = $_POST['usuario'];
-$contraseña = $_POST['clave'];
+$contrasena = $_POST['clave'];
 
-// Secrea un usuario nuevo mediante sentencia SQL INSERT
-$crear = "INSERT INTO `usuarios`(`nombres`, `apellidos`, `usuario`, `contraseña`) VALUES ('$nombres','$apellidos','$usuario','$contraseña')";
+// Se crea un usuario nuevo mediante sentencia SQL INSERT
+$crear = "INSERT INTO `usuarios`(`nombres`, `apellidos`, `usuario`, `contrasena`) VALUES ('$nombres','$apellidos','$usuario','$contrasena')";
 
 $resultado = $conexion->query($crear);
 
